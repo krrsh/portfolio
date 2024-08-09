@@ -31,7 +31,7 @@ const Hero = () => {
     <section className={styles.heroContainer}>
 
       <div className={styles.profSec}>
-        <img className={styles.pic} src="/src/assets/ProfilePhoto.jpeg" alt="Profile Pic" />
+        <img className={styles.pic} src="./src/assets/ProfilePhoto.jpeg" alt="Profile Pic" />
         <div className={styles.themeIcon}>{themeIcons}</div>
       </div>
 
