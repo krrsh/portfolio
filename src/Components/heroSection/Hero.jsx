@@ -10,7 +10,7 @@ import { FaGithub } from "react-icons/fa";
 import { TbBrandGithubFilled } from "react-icons/tb";
 
 //import resume
-import resume from '/src/assets/Resume 2023.pdf'
+import resume from '/src/assets/Resume_krishnaa.pdf'
 
 
 //import Theme
