@@ -1,0 +1,59 @@
+:root {
+    --background-color: #fff;
+    /* --btn-color: #222; */
+    --btn-color: cadetblue;
+    --btn-text-color: #fff;
+    --project-card-bg: #ffffff00;
+    /* --project-card-bg: rgb(103, 140, 156); */
+    --text-color: #222;
+    --footer-text-color: #888;
+  }
+  
+  [theme-data='dark'] {
+    --background-color: #222;
+    --btn-color: #fff;
+    --btn-text-color: #222;
+    --project-card-bg: #fff;
+    --text-color: #fff;
+    --footer-text-color: #bbb;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    margin: 60px auto 30px auto;
+    color: var(--text-color);
+  }
+
+  h1,h4{
+    text-transform: uppercase;
+  }
+
+  p,h4{
+    font-size: 3cap;
+    font-family: roboto mono;
+  }
+
+  h1{
+    font-family: rubik;
+    font-size: 3rem;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  button, input[type='submit']{
+    background-color: var(--btn-color);
+    color: var(--btn-text-color);
+  }
+  
+  @media (max-width:460px) {
+    p{
+      font-size: 2cap;
+    }
+  }
+  

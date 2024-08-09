@@ -1,0 +1,92 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+input:not([type='submit']), textarea{
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    font-size: large;
+    border-radius: 20px;
+    border: 2px solid var(--text-color);
+    outline: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+textarea{
+    height: 100px;
+    resize: none;
+}
+
+::placeholder{
+    color: #555;
+}
+
+input[type='submit']{
+    padding: 10px;
+}
+
+input[type='submit']{
+    font-family: roboto mono;
+    font-weight: 1000;
+    font-size: large;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1.0); 
+    transition: box-shadow 0.2s ease , transform 0.2s ease;;
+    
+}
+
+input[type='submit']:hover{
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 1.1);
+    cursor: pointer;
+    transform: scale(1.15);
+}
+
+input[type='submit']:active{
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 1.1);
+    transform: translateY(2px);
+}
+
+h5{
+    font-family: roboto mono;
+    font-weight: 100;
+    color: var(--footer-text-color);
+}
+
+h2{
+    font-weight: bolder;
+    color: var(--text-color);
+    font-family: roboto mono;
+}
+
+.lastline{
+    margin: 20px 0;
+    max-width: 600px;
+    width: 70%;
+    height: 0.1px;
+    outline: none;
+    margin-top: 100px;
+    background-color: var(--footer-text-color);
+    transition: width 0.3s ease;
+}
+
+@media (max-width:580px) {
+    input:not([type='submit']), textarea{
+        width: 300px;
+        padding: 20px;
+        font-size: medium;
+    }
+}
