@@ -16,6 +16,7 @@ import resume from '/src/assets/Resume 2023.pdf'
 //import Theme
 import {ThemeContext} from '../ThemeProvider'
 
+import photo from '../../assets/ProfilePhoto.jpeg'
 
 const Hero = () => {
 
@@ -31,7 +32,7 @@ const Hero = () => {
     <section className={styles.heroContainer}>
 
       <div className={styles.profSec}>
-        <img className={styles.pic} src="../../assets/ProfilePhoto.jpeg" alt="Profile Pic" />
+        <img className={styles.pic} src={photo} alt="Profile Pic" />
         <div className={styles.themeIcon}>{themeIcons}</div>
       </div>
 
