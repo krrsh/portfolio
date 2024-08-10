@@ -46,8 +46,8 @@ const Hero = () => {
       <p>With a passion for developing moder React web apps for commercial business</p>
       <div>
         <a href={resume} download><button className={styles.resumeBtn}>Resume</button></a>
-        {/* <a href='https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqVxJrCtgtbfPMNWcNRbgFTrqhNhHlmwsLQWHWrWpslDqpTpRJQlxgvWsSCDchGfxlZFVB' target="-blank" rel="noopener noreferrer"><button className={styles.resumeBtn}>Mail</button></a> */}
-        <a href='https://mail.google.com/mail/?view=cm&fs=1&to=gmkrishnaa63@gmail.com' target="-blank" rel="noopener noreferrer"><button className={styles.resumeBtn}>Mail</button></a>
+         <a href='https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRtsfnpHZjfCKzkWNnRKRXckXSgMnGRbbfjmwmDjpnDJqNXbnqBjQKwZfhJfkDHwgCSTrFb' target="-blank" rel="noopener noreferrer"><button className={styles.resumeBtn}>Mail</button></a>
+      {/* <a href='https://mail.google.com/mail/?view=cm&fs=1&to=gmkrishnaa63@gmail.com' target="-blank" rel="noopener noreferrer"><button className={styles.resumeBtn}>Mail</button></a> */}
       </div>
       </div>
 
