@@ -10,7 +10,6 @@ const Skills = () => {
         <Skill skill="HTML" />
         <Skill skill="CSS" />
         <Skill skill="JavaScript" />
-        <Skill skill="TypeScript" />
       </div>
       <hr />
       <div>
@@ -21,7 +20,6 @@ const Skills = () => {
       <div>
         <Skill skill="Redux" />
         <Skill skill="Git" />
-        <Skill skill="Bootstrap" />
       </div>
       <hr />
       <div>
