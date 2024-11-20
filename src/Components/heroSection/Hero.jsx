@@ -43,7 +43,7 @@ const Hero = () => {
         <a  className={styles.linkedIn}  href='https://www.linkedin.com/in/krishnaa-gm-2ba625245/' target='_blank' rel='noopener noreferrer'>{linkedin}</a>
         <a  className={styles.linkedIn} href='https://github.com/krrsh' target='_blank' rel='noopener noreferrer'>{git}</a>
       </div>
-      <p>With a passion for developing moder React web apps for commercial business</p>
+      <p>With a passion for developing modern React web apps for commercial business</p>
       <div>
         <a href={resume} download><button className={styles.resumeBtn}>Resume</button></a>
         <a href='https://mail.google.com/mail/?view=cm&fs=1&to=gmkrishnaa63@gmail.com' target="_blank" rel="noopener noreferrer"><button className={styles.resumeBtn}>Mail</button></a>
